@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: 10vh;
+    margin-bottom: 50px;
+}
+button{
+    width: 90px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.textArea{
+  display: flex;
+  justify-content: center;
+}
+
+.textArea > textarea{
+    max-width: 40vw;
+    max-height: 5vh;
+    min-width: 40vw;
+    min-height: 5vw;
+}
+
+h2{
+    text-align: center;
+}
+
